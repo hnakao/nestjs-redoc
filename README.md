@@ -14,9 +14,9 @@ Redoc is a **client-side** library that runs in the browser, not a Node.js packa
 ## Installation
 
 ```bash
-npm install nestjs-redoc
+npm install @hnakao/nestjs-redoc
 # or
-yarn add nestjs-redoc
+yarn add @hnakao/nestjs-redoc
 ```
 
 ## Quick Start
