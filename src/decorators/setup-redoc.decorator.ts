@@ -3,7 +3,7 @@ import { RedocOptions } from '../interfaces/redoc-options.interface';
 import { RedocService } from '../redoc.service';
 
 export function setupRedoc(
-  app: INestApplication<any>,
+  app: INestApplication,
   document: any,
   options?: RedocOptions
 ): void {
