@@ -1,0 +1,40 @@
+{
+  "name": "nestjs-redoc",
+  "version": "1.0.0",
+  "description": "ReDoc integration module for NestJS",
+  "author": "Hiroshi Nakao",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "nestjs",
+    "redoc",
+    "swagger",
+    "openapi",
+    "documentation"
+  ],
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/core": "^9.0.0 || ^10.0.0",
+    "@nestjs/swagger": "^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "@nx/js": "21.1.1",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "^22.15.21",
+    "nx": "21.1.1",
+    "prettier": "^2.6.2",
+    "tslib": "^2.3.0",
+    "typescript": "~5.7.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
