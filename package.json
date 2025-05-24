@@ -4,6 +4,14 @@
   "description": "ReDoc integration module for NestJS",
   "author": "Hiroshi Nakao",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnakao/nestjs-redoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hnakao/nestjs-redoc/issues"
+  },
+  "homepage": "https://github.com/hnakao/nestjs-redoc#readme",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
