@@ -1,6 +1,6 @@
 {
   "name": "@hnakao/nestjs-redoc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ReDoc integration module for NestJS",
   "author": "Hiroshi Nakao",
   "license": "MIT",
