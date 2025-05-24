@@ -1,0 +1,31 @@
+# Source
+src/
+tests/
+examples/
+
+# Configuration
+.eslintrc
+.prettierrc
+tsconfig.json
+jest.config.js
+nx.json
+
+# IDE
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+coverage/
+tmp/
+temp/
