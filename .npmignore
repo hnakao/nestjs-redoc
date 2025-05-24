@@ -1,31 +1,55 @@
-# Source
+# Source & Development files
 src/
 tests/
 examples/
+.github/
+.nx/
+packages/
 
-# Configuration
-.eslintrc
-.prettierrc
-tsconfig.json
+# Configuration files
+.eslintrc*
+.prettierrc*
+tsconfig*.json
 jest.config.js
 nx.json
+.travis.yml
+.gitlab-ci.yml
+.editorconfig
 
 # IDE
 .idea/
 .vscode/
+*.sublime-*
+.history/
 
 # Git
 .git/
 .gitignore
+.gitattributes
 
-# Logs
+# Logs & Debug
 logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Dependencies
 node_modules/
+package-lock.json
+yarn.lock
 
-# Build artifacts
+# Build artifacts & temp files
 coverage/
 tmp/
 temp/
+.cache/
+.tmp/
+*.tsbuildinfo
+.env*
+
+# Keep only production files
+!dist/
+!package.json
+!README.md
+!LICENSE
